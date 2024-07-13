@@ -1,0 +1,109 @@
+@media(max-width:1024px){
+    .image img{
+        max-width: 450px !important;
+    }
+    .main_head{
+        font-size: 18px;
+        margin: 12px 0px;
+
+    }
+    .content{
+        line-height: 2;
+        margin: 15px 0px 15px 0px;
+        font-size: 10px;
+    }
+    .btn-open-popup{
+        font-size: 10px;
+        padding: 8px 10px;
+    }
+    .heding h4{
+        font-size: 14px;
+    }
+}
+@media(max-width:700px){
+    .image img{
+        width: 350px !important;
+        margin: auto;
+    }
+    .main_head{
+        font-size: 5px;
+        margin: 9px 0px;
+        
+    }
+    .form-label{
+        position: absolute;
+        top: 5px;
+    }
+    .content{
+        line-height: 1.5;
+        margin: 14px 0px 15px 0px;
+        font-size: 9px;
+    }
+    .btn-open-popup{
+        font-size: 9px;
+        padding: 5px 9px;
+    }
+    .heding h4{
+        font-size: 13px;
+    }
+    .overlay-container{
+        align-items:flex-start;
+        overflow: auto;
+        
+    }
+    .overlay-container::-webkit-scrollbar{
+        display: none;
+        
+    }
+    
+    .popup-box{
+        width: 100%;
+        
+    }
+    .form-input, label {
+        padding: 8px 0x;
+        margin: 8px 0px;
+        font-size: 13px;
+    }
+    .upsec{
+        display: block !important;
+        text-align: center ;
+    }
+    .ques{
+        text-align: center;
+    }
+    .upsec .leftcont{
+        max-width: 100%;
+            }
+            .bestmain_contaner{
+                flex-wrap: wrap;
+                text-align: center;
+            }
+            .carousel-fade{
+                /* display: 
+                ; */
+                flex-wrap: wrap-reverse;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                margin: auto;
+            }
+}
+
+@media(max-width:500px){
+    .image img{
+        width: 100% !important;
+        margin: auto;
+    }
+    
+    .heding h4{
+        font-size: 3vw  ;
+        margin-top: 23px;
+    }
+    .main_head{
+        font-size: 4vw;
+    }
+   .first-section{
+    display: block;
+   }
+}
